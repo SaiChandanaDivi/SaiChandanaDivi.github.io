@@ -17,22 +17,12 @@
 and (min-device-width : 768px) 
 and (max-device-width : 1024px)
 and (orientation : landscape){
-    body{
+
+body{
        margin-left: 150px;
        margin-right: 150px;
        font-family: Arial, Helvetica, sans-serif;
        
-    }
-}
-
-/* iphone */
-@media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 812px) {
-    body{
-       margin-left: 10px;
-       font-family: Arial, Helvetica, sans-serif;
-    }
 }
 
 /* Style the top navigation bar */
@@ -58,6 +48,35 @@ and (max-device-width : 812px) {
   background-color: #ffffff;
   color: black;
 }
+}
+
+/* iphone */
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px) {
+    body{
+       margin-left: 10px;
+       font-family: Arial, Helvetica, sans-serif;
+    }
+
+.topnav {
+  position: relative;
+  display: inline-block;
+  background-color: #b30000;
+}
+
+.topnav a {
+  display: none;
+  position: absolute;
+  background-color: #b30000;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.topnav a:hover .dropdown-content {
+  display: block;
 
 /* Style the content */
 .content {
