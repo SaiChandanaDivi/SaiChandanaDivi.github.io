@@ -3,18 +3,13 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* ipad landscape */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px)
-and (orientation : landscape){
 
 body{
        margin-left: 220px;
        margin-right: 220px;
        font-family: Arial, Helvetica, sans-serif;
 }
-}
+
 
 /* Style the top navigation bar */
 div.topnav {
@@ -113,7 +108,7 @@ h2 {
     padding: 14px 16px;
 }
 
-P{
+P, ul, li{
   color: #4d4d4d;
 }
 
