@@ -119,6 +119,25 @@ div.footer {
   text-align: center;
 }
 
+/* quotes */
+div.quotations {
+  text-align: center;
+  border: 2px solid gray;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+/* Add an italic font style to all quotes */
+q {
+  font-style: italic;
+  color: #4d4d4d;
+  }
+
+/* Add a blue color to the author */
+div.author {
+  color: #00004d;
+  }
+
 /* Style image */
 img {
   display: block;
