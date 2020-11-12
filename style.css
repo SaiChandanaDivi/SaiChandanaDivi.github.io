@@ -160,6 +160,19 @@ div.author {
   max-width: 80%;
 }
 
+/* row */
+div.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+div.column{
+    float: left;
+    width: 50%;
+    padding:5px;
+}
+
 /* Style heading */
 h1 {
     text-align: center;
