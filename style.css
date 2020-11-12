@@ -139,11 +139,25 @@ div.author {
   }
 
 /* Style image */
-img {
+.img1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
   border-radius: 80px;
+  width: auto;
+  height: auto;
+  max-width: 40%;
+}
+
+/* Style image */
+.img2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 80px;
+  width: auto;
+  height: auto;
+  max-width: 80%;
 }
 
 /* Style heading */
@@ -182,4 +196,9 @@ a:active {
   color: #00004d;
   background-color: transparent;
   text-decoration: underline;
+}
+
+div.centerframe {
+  text-align:center;
+  width:100%;
 }
