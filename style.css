@@ -186,6 +186,11 @@ h2 {
     padding: 14px 16px;
 }
 
+h3 {
+    color: #00004d;
+    margin-bottom: -12px;
+}
+
 P, ul, li{
   color: #4d4d4d;
 }
