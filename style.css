@@ -211,10 +211,10 @@ div.author {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 80px;
+  border-radius: 20%;
   width: auto;
   height: auto;
-  max-width: 40%;
+  max-width: 30%;
 }
 
 /* Style image */
@@ -222,10 +222,10 @@ div.author {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 80px;
+  border-radius: 10%;
   width: auto;
   height: auto;
-  max-width: 80%;
+  max-width: 60%;
 }
 
 /* row */
@@ -238,15 +238,7 @@ div.row::after{
 div.column{
     float: left;
     width: 50%;
-    padding:5px;
-}
-
-/* Style the content */
-div.blogs {
-  background-color: #ffffff;
-  padding: 10px;
-  text-align: justify;
-  text-justify: inter-word;
+    padding:2px;
 }
 
 /* Style heading */
@@ -256,8 +248,8 @@ h1 {
 }
 
 h2 {
-    color: #00004d;
     display: block;
+    color: #00004d;
     background-color: #BEC2D5;
     padding: 14px 16px;
 }
@@ -290,4 +282,41 @@ a:active {
   color: #00004d;
   background-color: transparent;
   text-decoration: underline;
+}
+
+/* Style the blogs */
+div.blogs {
+  padding: 0px 10px;
+  background-color: #ffffff;
+  padding: 10px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+div.centered{
+    margin-left: auto;
+    margin-right: auto;
+    width:28em;
+    overflow: auto;
+}
+
+.centered a {
+  overflow: auto;
+  padding: 14px 16px;
+  text-decoration: none;  
+  color: #00004d;
+  background-color: #BEC2D5;
+  text-align: center;
+  display: block;
+  float: left;
+}
+
+.centered a:hover {
+  background-color: #ffffff;
+  color: #00004d;
+}
+
+.centered a.active {
+  background-color: #ffffff;
+  color: #00004d;
 }
