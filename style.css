@@ -214,7 +214,7 @@ div.author {
   border-radius: 20%;
   width: auto;
   height: auto;
-  max-width: 30%;
+  max-width: 35%;
 }
 
 /* Style image */
@@ -225,7 +225,7 @@ div.author {
   border-radius: 10%;
   width: auto;
   height: auto;
-  max-width: 60%;
+  max-width: 70%;
 }
 
 /* row */
@@ -296,12 +296,11 @@ div.blogs {
 div.centered{
     margin-left: auto;
     margin-right: auto;
-    width:26em;
+    width:14em;
     overflow: auto;
 }
 
 .centered a {
-  overflow: auto;
   padding: 14px 16px;
   text-decoration: none;  
   color: #00004d;
