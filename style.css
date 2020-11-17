@@ -39,8 +39,8 @@ and (min-width: 1370px)
 and (max-width: 1605px) {
 
 body{
-       margin-left: 250px;
-       margin-right: 250px;
+       margin-left: 300px;
+       margin-right: 300px;
        font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -69,8 +69,8 @@ and (max-device-width : 1024px)
 and (orientation : landscape){
 
 body{
-       margin-left: 220px;
-       margin-right: 220px;
+       margin-left: 250px;
+       margin-right: 250px;
        font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -239,6 +239,14 @@ div.column{
     float: left;
     width: 50%;
     padding:5px;
+}
+
+/* Style the content */
+div.blogs {
+  background-color: #ffffff;
+  padding: 10px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 /* Style heading */
