@@ -95,6 +95,7 @@ body{
 /* Style the top navigation bar */
 div.topnav {
   overflow: auto;
+  overflow-x: hidden;
   background-color: #b30000;
   width: 100%;
 }
@@ -107,6 +108,8 @@ div.topnav a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;  
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
 }
 
 /* Change color on hover */
@@ -211,10 +214,10 @@ div.author {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 20%;
+  border-radius: 25%;
   width: auto;
   height: auto;
-  max-width: 36%;
+  max-width: 35%;
 }
 
 /* Style image */
@@ -222,10 +225,25 @@ div.author {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 10%;
+  border-radius: 15%;
   width: auto;
   height: auto;
-  max-width: 70%;
+  max-width: 75%;
+}
+
+.imgthumbnails {
+  padding: 5px;
+  width: auto;
+  max-width: 100%;
+}
+
+.imgthumbnails:hover {
+  box-shadow: 0px 0px 3px 3px rgba(200, 20, 20, 0.5);
+}
+
+.center {
+text-align: center;
+column-count: 3;
 }
 
 /* row */
