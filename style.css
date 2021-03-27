@@ -214,7 +214,7 @@ div.author {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 25%;
+  border-radius: 30%;
   width: auto;
   height: auto;
   max-width: 35%;
@@ -225,10 +225,21 @@ div.author {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 15%;
+  border-radius: 10%;
   width: auto;
   height: auto;
   max-width: 75%;
+}
+
+/* Style image */
+.img3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10%;
+  width: auto;
+  height: auto;
+  max-width: 30%;
 }
 
 .imgthumbnails {
