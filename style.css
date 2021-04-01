@@ -10,8 +10,6 @@ and (min-width: 1024px)
 and (max-height: 1310px) {
 
 body{
-       margin-left: 250px;
-       margin-right: 250px;
        font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -39,8 +37,6 @@ and (min-width: 1370px)
 and (max-width: 1605px) {
 
 body{
-       margin-left: 300px;
-       margin-right: 300px;
        font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -69,8 +65,6 @@ and (max-device-width : 1024px)
 and (orientation : landscape){
 
 body{
-       margin-left: 180px;
-       margin-right: 180px;
        font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -98,6 +92,7 @@ div.topnav {
   overflow-x: hidden;
   background-color: #b30000;
   width: 100%;
+  position: fixed;
 }
 
 /* Style the topnav links */
@@ -133,7 +128,6 @@ and (min-device-width : 375px)
 and (max-device-width : 812px) {
 
 body{
-  margin-left: 10px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -164,7 +158,9 @@ body{
 @media only screen
 and (min-device-width : 375px)
 and (max-device-width : 812px) {
-  .topnav.responsive {position: relative;}
+  .topnav.responsive {
+    position: relative;
+  }
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
@@ -180,7 +176,7 @@ and (max-device-width : 812px) {
 /* Style the content */
 div.content {
   background-color: #ffffff;
-  padding: 10px;
+  padding: 50px;
 }
 
 /* Style the footer */
@@ -217,7 +213,7 @@ div.author {
   border-radius: 30%;
   width: auto;
   height: auto;
-  max-width: 35%;
+  max-width: 30%;
 }
 
 /* Style image */
@@ -258,8 +254,9 @@ div.author {
 }
 
 .center {
-text-align: center;
-column-count: 3;
+  padding: 50px;
+  text-align: center;
+  column-count: 2;
 }
 
 /* row */
@@ -322,16 +319,16 @@ a:active {
 div.blogs {
   padding: 0px 10px;
   background-color: #ffffff;
-  padding: 10px;
+  padding: 50px;
   text-align: justify;
   text-justify: inter-word;
 }
 
 div.centered{
-    margin-left: auto;
-    margin-right: auto;
-    width:14em;
-    overflow: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width:14em;
+  overflow: auto;
 }
 
 .centered a {
