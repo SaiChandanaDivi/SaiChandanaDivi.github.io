@@ -374,7 +374,6 @@ P, ul{
 div.blogs {
   background-color: #ffffff;
   padding: 80px 85px;
-  animation: transitionIN 0.75s;
   text-align: justify;
   text-justify: inter-word;
   animation: transitionIN 0.75s;
