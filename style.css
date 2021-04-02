@@ -87,6 +87,7 @@ nav{
     transition: all 0.3s ease;
 }
 
+/* ipad */
 @media screen and (max-width: 1024px) {
   .nav-links {
       width: 140%;
@@ -99,15 +100,17 @@ nav{
   }
 }
 
+/* iphone */
 @media screen and (max-width: 768px) {
   body {
       overflow-x: hidden;
+      font-size: 14px;
   }
   
   .nav-links {
       position: fixed;
       right: 0px;
-      height: 92vh;
+      height: 82vh;
       top: 8vh;
       background-color: #b30000;
       display: flex;
@@ -155,13 +158,6 @@ nav{
   transform: rotate(45deg) translate(-5px, -6px);
 }
 
-/* Style the content */
-.content {
-  background-color: #ffffff;
-  padding: 80px 85px;
-  animation: transitionIN 0.75s;
-}
-
 @keyframes transitionIN{
   from {
       opacity: 0;
@@ -202,6 +198,7 @@ div.author {
   color: #00004d;
   }
 
+/* desktop / ipad */
 @media screen and (min-width: 768px) {
   /* Style image */
   .img1 {
@@ -245,7 +242,22 @@ div.author {
     max-width: 50%;
     box-shadow: 0px 0px 1px 1px rgba(200, 20, 20, 1.0);
   }
+
+  /* Style the content */
+  .content {
+    background-color: #ffffff;
+    padding: 80px 85px;
+    animation: transitionIN 0.75s;
+  }
+  /* Style heading */
+  h1 {
+      text-align: center;
+      color: #00004d;
+      padding: 14px 16px;
+  }
 }
+
+/* desktop / ipad */
 @media screen and (max-width: 768px) {
   
   /* Style image */
@@ -289,6 +301,18 @@ div.author {
     max-width: 100%;
     box-shadow: 0px 0px 1px 1px rgba(200, 20, 20, 1.0);
   }
+  /* Style the content */
+  .content {
+    background-color: #ffffff;
+    padding: 15px;
+    animation: transitionIN 0.75s;
+  }
+  /* Style heading */
+  h1 {
+      text-align: center;
+      color: #00004d;
+      padding-top: 80px;
+  }
 }
 
 .imgthumbnails:hover {
@@ -319,12 +343,6 @@ div.column{
     padding:2px;
 }
 
-/* Style heading */
-h1 {
-    text-align: center;
-    color: #00004d;
-    padding: 14px 16px;
-}
 
 h2 {
     display: block;
