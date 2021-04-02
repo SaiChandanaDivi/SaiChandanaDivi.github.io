@@ -6,28 +6,38 @@
 <title>Sai Divi: testimonals</title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons/css/academicons.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="./style.css" type="text/css">
 </head>
 
 
 <body>
-<div class="topnav" id="myTopnav">
-  <a href="index.html">Home</a>
-  <a href="about.html">About</a>
-  <a href="teaching.html">Teaching</a>
-  <a href="research.html">Research</a>
-  <a href="talks.html">Academic talks</a>
-  <a href="testimonals.html" class="active">Testimonals</a>
-  <a href="photos.html">Photos</a>
-  <a href="blogs.html">Blogs</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
-</div>
+<nav>
+  <div class="logo">
+      <img src="images/scdivi.png" alt="logo">
+  </div>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html" class="active">About</a></li>
+    <li><a href="research.html">Research</a></li>
+    <li><a href="teaching.html">Teaching</a></li>
+    <li><a href="talks.html">Academic talks</a></li>
+    <li><a href="photos.html">Photos</a></li>
+    <li><a href="blogs.html">Blogs</a></li>
+    <li><a href="art.html">Art</a></li>
+  </ul>
+  <div class="burger">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+  </div>
+</nav>
 
 <div class="content">
   <h1>Testimonals</h1>
   <h2>Supervisors/Teachers</h2>
+  <p>
   <div class="quotations">
       <q> I came to know Sai during my modules at UPC, BarcelonaTech, where she moved as an Erasmus Mundus exchange student after completing her first year at Swansea University. Sai obtained a scholarship for undertaking this program due to her exceptional academic record and a stand-out application. After coming to UPC, she excelled both in practical and theoretical research work. During the classes, she made many valuable contributions to the discussions and was one of the finest students to look out for. She appeared extremely intelligent and self-motivated. The quality of her projects and assignments demonstrated an excellent grasp of advanced discretization methods and numerical modeling skills, as well as a strong hold of computational mechanics tools.</q><br><br>
       <a href="https://eng.ox.ac.uk/people/amir-abdollahi/">- Dr. Amir Abdollahi, ex-lecturer, Universitat Politècnica de Catalunya (UPC), BarcelonaTech, Spain.<br>(Currently a research assistant in Machine learning, University of Oxford, Oxford, United Kingdom)</a><br>
@@ -50,6 +60,7 @@
 <p>&nbsp;<br>&nbsp;</p>
 
 <h2>Peers/Team-mates</h2>
+<p>
 <div class="quotations">
 <q>Sai is an exceptional asset to have in any team. I got an opportunity to be classmates with Sai during grad school and I'm grateful to have been friends with such a hard-working person. She's methodical, dedicated and very capable. Her research potential and instincts are highly commendable. In addition, she's very kind and makes time out of her schedule to help her friends. She's a very patient teacher and an amazing group player. No matter how dire a situation is, Sai always works with a positive attitude and tries her level best to give her best. You do not come across a combination of talent, dedication and compassion in the academia every day. Sai is, in my opinion, the finest person I've ever met in school and I'm certain she'll make it big wherever she goes. She earns my highest recommendation.</q><br><br>
 <a href="https://www.linkedin.com/in/karthik-suresh-19161aa7/">- Karthik Suresh, Seismic Software Developer at ExxonMobil, Bangalore, India.</a>
@@ -69,16 +80,7 @@
 <p>&#169; 2020 Sai Chandana Divi &#183; Rotterdam 3015AA &#183; The Netherlands</p>
 </div>
 
-<script>
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-</script>
+<script src="app.js"></script>
 
 </body>
 </html>

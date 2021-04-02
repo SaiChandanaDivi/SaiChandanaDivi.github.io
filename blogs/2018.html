@@ -6,24 +6,33 @@
 <title>Sai Divi: blogs/2018</title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons/css/academicons.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../style.css" type="text/css">
 </head>
 
 <body>
 
-<div class="topnav" id="myTopnav">
-  <a href="../index.html">Home</a>
-  <a href="../about.html">About</a>
-  <a href="../teaching.html">Teaching</a>
-  <a href="../research.html">Research</a>
-  <a href="../talks.html">Academic talks</a>
-  <a href="../photos.html">Photos</a>
-  <a href="../blogs.html" class="active">Blogs</a>
-  <a href="../art.html">Art</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
-</div>
+<nav>
+  <div class="logo">
+      <img src="../images/scdivi.png" alt="logo">
+  </div>
+  <ul class="nav-links">
+    <li><a href="../index.html">Home</a></li>
+    <li><a href="../about.html">About</a></li>
+    <li><a href="../research.html">Research</a></li>
+    <li><a href="../teaching.html">Teaching</a></li>
+    <li><a href="../talks.html">Academic talks</a></li>
+    <li><a href="../photos.html">Photos</a></li>
+    <li><a href="../blogs.html" class="active">Blogs</a></li>
+    <li><a href="../art.html">Art</a></li>
+  </ul>
+  <div class="burger">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+  </div>
+</nav>
 
 <div class="centered">
 <h1>Blogs</h1>
@@ -39,18 +48,18 @@
 <h2>2018</h2>
 
 <h3>In a public (Indian) newspaper: An exchange spree</h3>
-<p style="font-size: 12px; padding:0"><i>17 November 2018</i></p>
+<p style="font-size: 12px;"><i>17 November 2018</i></p>
 <p>An esteemed Indian newspaper published my article about benefits of an exchange-study program. This article focuses on details of the exchange programs and a special focus on my experience of being involved in it during my master studies. I hope this article would give insights into the exchange programs in Europe and encourages upcoming students to pursue an exchange program in Europe or elsewhere.</p>
 <p>The article can be found here: <a href="https://www.thehindu.com/education/an-exchange-spree/article25525337.ece">https://www.thehindu.com/education/an-exchange-spree/article25525337.ece</a></p>
 
 <h3>First conference: ECCM-ECFD 2018</h3>
-<p style="font-size: 12px; padding:0"><i>16 June 2018</i></p>
+<p style="font-size: 12px;"><i>16 June 2018</i></p>
 <p>After starting the research career in the field of computational mechanics, for the first time this year I have presented my work in a scientific-gathering. Together with my colleagues, I have travelled to Glasgow in Scotland, United Kingdom. I was very nervous about my talk, especially because it was in a massive room with a huge capacity of expert researchers in the field of computational mechanics. After the presentation, I had a discussion with Prof. Ernst Rank (Former-director of Institute of Advanced Study (IAS) at the Technical University Munich (TUM) and father of Finite Cell Method). It was nice to get his feedback and suggestions of my current work. Addtionally, Dr. Ruben Sevilla, my mentor and one of my teachers at Swansea University, attending my talk and said that it was nice to see my progress in the field of computational mechanics. He clicked the photo below and wrote a personal mail specifying how happe he was to see my progress from first day at Swansea to this day. It was a great pleasure to have such a good support from the members of the research community.</p>
 <img src="../images/sai_glasgow_2018.jpg" alt="sai_glasgow" class="img2">
 <p style="text-align: center">Presenting at the conference. Source: Dr. Ruben Sevilla (Associate Professor, Swansea University)</p>
 
 <h3>PhDays 2018: Dutch-Flemish Scientific Computing Society</h3>
-<p style="font-size: 12px; padding:0"><i>01 June 2018</i></p>
+<p style="font-size: 12px;"><i>01 June 2018</i></p>
 <p>The Dutch-Flemish Scientific Computing Society is a research community which unites scientific researches in numerical mathematics and scientific computing. They conduct an annual spring meeting to give a platform to both young and senior researchers to present their research work. After the meeting, PhDays is conducted, where all the PhD members plan a few fun activites and go on a weekend away. This year I took part in it and we visited a few beautiful places around Xhoffraix, Belgium. We also did a few fun activities like tour a formula-1 race circuit in Spa and a local beer brewery near Malmedy, quiz, barbecue, etc.. Along with fun, it was a perfect chance to meet other PhD students in the scientific computing society.</p>
 <img src="../images/phdays_2018.jpg" alt="phdays" class="img2">
 <p style="text-align: center">At the formula-1 circuit in Spa. Source: Pieterjan Robbe (PhDays organizer)</p>
@@ -61,16 +70,7 @@
   <p>&#169; 2020 Sai Chandana Divi &#183; Rotterdam 3015AA &#183; The Netherlands</p>
 </div>
 
-<script>
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-</script>
+<script src="../app.js"></script>
 
 </body>
 </html>
