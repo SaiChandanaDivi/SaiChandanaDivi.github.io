@@ -15,7 +15,7 @@ nav{
   align-items: center;
   transition: 0.6s;
   min-height: 8vh;
-  background-color: #b30000;
+  background-color: #50001E;
   z-index: 100000;
 }
 
@@ -112,7 +112,7 @@ nav{
       right: 0px;
       height: 82vh;
       top: 8vh;
-      background-color: #b30000;
+      background-color: #50001E;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -252,7 +252,7 @@ div.author {
   /* Style heading */
   h1 {
       text-align: center;
-      color: #00004d;
+      color: #50001E;
       padding: 14px 16px;
   }
 }
@@ -310,7 +310,7 @@ div.author {
   /* Style heading */
   h1 {
       text-align: center;
-      color: #00004d;
+      color: #50001E;
       padding-top: 80px;
   }
 }
@@ -346,14 +346,14 @@ div.column{
 
 h2 {
     display: block;
-    color: #00004d;
-    background-color: #BEC2D5;
+    color: #50001E;
+    background-color: #50001E4D;
     padding: 14px 16px;
     text-align: left;
 }
 
 h3 {
-    color: #00004d;
+    color: #50001E;
     text-align: left;
     padding: 14px;
     margin-bottom: -25px;
@@ -380,7 +380,7 @@ div.blogs {
 }
 
 .blogs h3 {
-    color: #00004d;
+    color: #50001E;
     padding: 14px;
     margin-bottom: -25px;
     text-align: left;
@@ -396,8 +396,8 @@ div.centered{
 .centered a {
   padding: 14px 16px;
   text-decoration: none;  
-  color: #00004d;
-  background-color: #BEC2D5;
+  color: #50001E;
+  background-color: #50001E4D;
   text-align: center;
   display: block;
   float: center;
@@ -405,10 +405,10 @@ div.centered{
 
 .centered a:hover {
   background-color: #ffffff;
-  color: #00004d;
+  color: #50001E;
 }
 
 .centered a.active {
   background-color: #ffffff;
-  color: #00004d;
+  color: #50001E;
 }
