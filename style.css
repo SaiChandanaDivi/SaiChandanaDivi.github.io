@@ -15,7 +15,7 @@ nav{
   align-items: center;
   transition: 0.6s;
   min-height: 8vh;
-  background-color: #50001E;
+  background-color: #3a0041;
   z-index: 100000;
 }
 
@@ -112,7 +112,7 @@ nav{
       right: 0px;
       height: 82vh;
       top: 8vh;
-      background-color: #50001E;
+      background-color: #3a0041;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -240,7 +240,7 @@ div.author {
     padding: 5px;
     width: auto;
     max-width: 50%;
-    box-shadow: 0px 0px 1px 1px rgba(200, 20, 20, 1.0);
+    box-shadow: 0px 0px 1px 1px rgba(58, 0, 65, 0.5);
   }
 
   /* Style the content */
@@ -252,8 +252,23 @@ div.author {
   /* Style heading */
   h1 {
       text-align: center;
-      color: #50001E;
+      color: ##3a0041;
       padding: 14px 16px;
+  }
+  /* Style the blogs */
+  div.blogs {
+    background-color: #ffffff;
+    padding: 80px 85px;
+    text-align: justify;
+    text-justify: inter-word;
+    animation: transitionIN 0.75s;
+  }
+  
+  .blogs h3 {
+      color: #3a0041;
+      padding: 14px;
+      margin-bottom: -25px;
+      text-align: left;
   }
 }
 
@@ -299,7 +314,7 @@ div.author {
     padding: 5px;
     width: auto;
     max-width: 100%;
-    box-shadow: 0px 0px 1px 1px rgba(200, 20, 20, 1.0);
+    box-shadow: 0px 0px 1px 1px rgba(58, 0, 65, 0.5);
   }
   /* Style the content */
   .content {
@@ -310,17 +325,31 @@ div.author {
   /* Style heading */
   h1 {
       text-align: center;
-      color: #50001E;
+      color: #3a0041;
       padding-top: 80px;
+  }
+  /* Style the blogs */
+  div.blogs {
+    background-color: #ffffff;
+    padding: 15px;
+    text-align: justify;
+    text-justify: inter-word;
+    animation: transitionIN 0.75s;
+  }
+  
+  .blogs h3 {
+      color: #3a0041;
+      margin-bottom: -25px;
+      text-align: left;
   }
 }
 
 .imgthumbnails:hover {
-  box-shadow: 0px 0px 3px 3px rgba(200, 20, 20, 0.5);
+  box-shadow: 0px 0px 5px 5px rgba(58, 0, 65, 0.5);
 }
 
 .imgthumbnails:active {
-  box-shadow: 0px 0px 3px 3px rgba(200, 20, 20, 0.5);
+  box-shadow: 0px 0px 5px 5px rgba(58, 0, 65, 0.5);
 }
 
 .center {
@@ -346,14 +375,14 @@ div.column{
 
 h2 {
     display: block;
-    color: #50001E;
-    background-color: #50001E4D;
+    color: #3a0041;
+    background-color: #3a00414D;
     padding: 14px 16px;
     text-align: left;
 }
 
 h3 {
-    color: #50001E;
+    color: #3a0041;
     text-align: left;
     padding: 14px;
     margin-bottom: -25px;
@@ -370,22 +399,6 @@ P, ul{
   padding: 14px 16px;
 }
 
-/* Style the blogs */
-div.blogs {
-  background-color: #ffffff;
-  padding: 80px 85px;
-  text-align: justify;
-  text-justify: inter-word;
-  animation: transitionIN 0.75s;
-}
-
-.blogs h3 {
-    color: #50001E;
-    padding: 14px;
-    margin-bottom: -25px;
-    text-align: left;
-}
-
 div.centered{
   margin: auto;
   width: 50%;
@@ -396,8 +409,8 @@ div.centered{
 .centered a {
   padding: 14px 16px;
   text-decoration: none;  
-  color: #50001E;
-  background-color: #50001E4D;
+  color: #3a0041;
+  background-color: #3a00414D;
   text-align: center;
   display: block;
   float: center;
@@ -405,10 +418,10 @@ div.centered{
 
 .centered a:hover {
   background-color: #ffffff;
-  color: #50001E;
+  color: #3a0041;
 }
 
 .centered a.active {
   background-color: #ffffff;
-  color: #50001E;
+  color: #3a0041;
 }
