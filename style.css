@@ -200,16 +200,23 @@ div.author {
 
 /* desktop / ipad */
 @media screen and (min-width: 768px) {
-  /* Style image */
-  .img1 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 30%;
-    width: auto;
-    height: auto;
-    max-width: 25%;
-    padding: 14px 12px;
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: justify;
+    background-color: #ffffff;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 150px;
+    animation: transitionIN 0.75s;
+  }
+  
+  .container .text{
+      padding-left: 20px;
+  }
+  
+  .container .image{
+      flex-basis: 120%
   }
   
   /* Style image */
@@ -249,6 +256,7 @@ div.author {
     padding: 80px 85px;
     animation: transitionIN 0.75s;
   }
+  
   /* Style heading */
   h1 {
       text-align: center;
@@ -274,17 +282,22 @@ div.author {
 
 /* desktop / ipad */
 @media screen and (max-width: 768px) {
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: justify;
+    background-color: #ffffff;
+    margin-left: 15px;
+    margin-top: 100px;
+    animation: transitionIN 0.75s;
+  }
   
-  /* Style image */
-  .img1 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 30%;
-    width: auto;
-    height: auto;
-    max-width: 100%;
-    padding: 14px 12px;
+  .container .text{
+      padding-left: 10px;
+  }
+  
+  .container .image{
+      flex-basis: 180%
   }
   
   /* Style image */
@@ -342,6 +355,17 @@ div.author {
       margin-bottom: -25px;
       text-align: left;
   }
+}
+
+/* Style image */
+.img1 {
+  border-radius: 50%;
+  max-width: 100%;
+}
+
+.container .image, .container .text {
+        display: inline-block;
+        vertical-align: center;
 }
 
 .imgthumbnails:hover {
