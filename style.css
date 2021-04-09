@@ -203,20 +203,12 @@ div.author {
   .container {
     display: flex;
     align-items: center;
-    justify-content: justify;
+    justify-content: center;
     background-color: #ffffff;
     margin-left: 100px;
     margin-right: 100px;
     margin-top: 150px;
     animation: transitionIN 0.75s;
-  }
-  
-  .container .text{
-      padding-left: 20px;
-  }
-  
-  .container .image{
-      flex-basis: 120%
   }
   
   /* Style image */
@@ -279,13 +271,27 @@ div.author {
       text-align: left;
   }
 }
+/* ipad */
+@media screen and (max-width: 1024px) {
+  .container .text{
+      padding-left: 20px;
+  }
+}
+
+/* desktop */
+@media screen and (min-width: 1024px) {
+  .container .text{
+      padding-left: 20px;
+      font-size: 24px;
+  }
+}
 
 /* desktop / ipad */
 @media screen and (max-width: 768px) {
   .container {
-    display: flex;
+    display: block;
     align-items: center;
-    justify-content: justify;
+    justify-content: center;
     background-color: #ffffff;
     margin-left: 15px;
     margin-top: 100px;
@@ -293,11 +299,7 @@ div.author {
   }
   
   .container .text{
-      padding-left: 10px;
-  }
-  
-  .container .image{
-      flex-basis: 180%
+      padding-left: 5px;
   }
   
   /* Style image */
@@ -362,7 +364,11 @@ div.author {
   border-radius: 50%;
   max-width: 100%;
 }
-
+  
+.container .image{
+  flex-basis: 120%
+}
+  
 .container .image, .container .text {
         display: inline-block;
         vertical-align: center;
