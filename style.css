@@ -36,7 +36,7 @@ nav{
 .nav-links {
   display: flex;
   justify-content: space-around;
-  width: 50%;
+  width: 70%;
 }
 
 .nav-links a{
@@ -44,7 +44,7 @@ nav{
   color: #f2f2f2;
   text-decoration: none;
   letter-spacing: 3px;
-  font-size: 16px;
+  font-size: 18px;
   opacity: 1;
 }
 
