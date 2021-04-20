@@ -450,3 +450,15 @@ div.centered{
   background-color: #ffffff;
   color: #3a0041;
 }
+
+.checked {
+  color: #3a0041;
+}
+
+table{
+  border: None;
+
+}
+th, td {
+  text-align: left;
+}
