@@ -380,7 +380,7 @@ div.author {
 .center {
   padding: 100px;
   text-align: center;
-  column-count: 2;
+  column-count: 3;
   animation: transitionIN 0.75s;
 }
 
