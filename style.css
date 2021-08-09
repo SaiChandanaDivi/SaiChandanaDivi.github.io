@@ -457,7 +457,8 @@ div.centered{
 
 table{
   border: None;
-
+  color: #4d4d4d;
+  padding: 14px 16px;
 }
 th, td {
   text-align: left;
