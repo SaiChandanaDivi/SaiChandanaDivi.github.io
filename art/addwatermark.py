@@ -1,12 +1,11 @@
 import os
 
-fname = "zaragoza.jpg"
-
-pht   = "photography"
-#pht   = "lego"
+fname = "lego_gardening.jpg"
+# pht   = "photography"
+pht   = "lego"
 
 clr   = "white"
-#clr   = "black"
+# clr   = "black"
 
 direction = "SouthEast"
 
